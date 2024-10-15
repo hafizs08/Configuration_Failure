@@ -25,10 +25,10 @@ spring:
     url: jdbc:postgresql://database:5432/_core
     username: admin
     password: $$TF123.asdu$123
-
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
 
 #-----------------------------------
 --- # i18n & L10n
